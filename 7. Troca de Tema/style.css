@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s;
+}
+
+/* Tema claro */
+.tema-claro {
+    background: #f2f2f2;
+    color: #222;
+}
+
+/* Tema escuro */
+.tema-escuro {
+    background: #121212;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
