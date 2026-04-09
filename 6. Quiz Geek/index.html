@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Geek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz">
+
+    <h1>Quiz Geek </h1>
+
+    <!-- Pergunta 1 -->
+    <div class="pergunta">
+        <p>1) Quem o Leon salva em Resident Evil 4?</p>
+        <button onclick="responder(1, 'errado')">Ada</button>
+        <button onclick="responder(1, 'errado')">Claire</button>
+        <button onclick="responder(1, 'certo')">Ashley</button>
+        <p id="feedback1"></p>
+    </div>
+
+    <!-- Pergunta 2 -->
+    <div class="pergunta">
+        <p>2) Qual o nome desse jogo da imagem?</p>
+
+            <img src="Omori.jpg" class="imagem-pergunta">
+
+        <button onclick="responder(2, 'errado')">Roblox</button>
+        <button onclick="responder(2, 'errado')">Tunic</button>
+        <button onclick="responder(2, 'certo')">Omori</button>
+        <p id="feedback2"></p>
+    </div>
+
+    <!-- Pergunta 3 -->
+    <div class="pergunta">
+        <p>3) Qual o nome desse personagem?</p>
+
+            <img src="Arthur.png" class="imagem-pergunta">
+
+        <button onclick="responder(3, 'certo')">Arthur Morgan</button>
+        <button onclick="responder(3, 'errado')">Jack Marston</button>
+        <button onclick="responder(3, 'errado')">John Marston</button>
+        <p id="feedback3"></p>
+    </div>
+
+    <h2 id="resultado"></h2>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
